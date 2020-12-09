@@ -42,7 +42,7 @@
     elem.style = 'margin: 0 auto;max-width: 80%;padding: 30px 15px 40px;'
     
     const match = location.hash.match(/#(.*?)([?]|$)/)
-    const idAndTitle = match ? match[1] : window.location.pathname
+    const id = match ? match[1] : window.location.pathname
 
     const gitalk = new Gitalk({
       clientID: 'bc6287aac6cf5ea00869',
@@ -51,8 +51,8 @@
       owner: 'arronKler',
       admin: ['arronKler'],
       // facebook-like distraction free mode
-      title: idAndTitle ,
-      id: idAndTitle, 
+      title: document.title ,
+      id: id, 
       distractionFreeMode: false
     })
 

@@ -43,10 +43,11 @@
     const gitalk = new Gitalk({
       clientID: 'bc6287aac6cf5ea00869',
       clientSecret: 'c99b077d30bc1903de772a5079b8e277d7076869',
-      repo: 'https://github.com/arronKler/blog',
+      repo: 'blog',
       owner: 'arronKler',
-      // admin: ['arronKler'],
+      admin: [],
       // facebook-like distraction free mode
+      id: location.pathname, 
       distractionFreeMode: false
     })
 

@@ -4,7 +4,7 @@
 
 你或许已经知道了怎么用 HTML 写页面结构，用 CSS 写样式，然后他们就会被浏览器变成最终变成显示屏上展示的图像，变成一个又一个的像素点。<u>那么HTML和CSS是如何转换成显示器能显示的内容的呢？</u>
 
-![](http://ardocs.playeruu.com/uPic/xkqYar_MmbvYq.png ':size=100%')
+![](https://cdn.jsdelivr.net/gh/arronKler/oss@master/uPic/2020_12/4grqJq_10_11-52-05.jpg ':size=100%')
 
 这中间的转换过程，其实就是一个 **“渲染流水线”** 的执行过程。所谓渲染流水线 是指浏览器中的渲染进程将我们的html、css 代码转换为屏幕上显示的像素点的过程。之所以叫做流水线，是因为整个渲染的过程和工厂中的流水线类似，按顺序一步一步执行，最终产出结果。
 
@@ -33,7 +33,7 @@ HTML、CSS 经过上面整个渲染流水线的过程，执行下来，就变成
 
 HTML 标准中定义的构建DOM的流程如下：
 
-![HTML转换为DOM的规范流程](http://ardocs.playeruu.com/uPic/qAGJcB_LqdFF9.jpg)
+![HTML转换为DOM的规范流程](https://cdn.jsdelivr.net/gh/arronKler/oss@master/uPic/2020_12/4Yw1Nq_10_11-53-09.jpg)
 
 上面这张图是一个完整的流程，对于我们来说网络相关的解析解码什么的不是本文重点，和本文相关的主要是两个过程：
 1. 词法分析。通过 tokenizer 将文本字符转换为一个个的token，统称tokens
@@ -59,7 +59,7 @@ HTML 标准中定义的构建DOM的流程如下：
 ```
 
 就会被解析为
-![](http://ardocs.playeruu.com/uPic/9aieWo_gP7gxC.png ':size=100%')
+![](https://cdn.jsdelivr.net/gh/arronKler/oss@master/uPic/2020_12/aowqDg_10_11-52-28.jpg ':size=100%')
 
 
 ## 创建DOM

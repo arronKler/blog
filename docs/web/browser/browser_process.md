@@ -204,3 +204,7 @@ Tab进程是用来渲染页面，执行JS代码（当然这里可能是JScript�
 8. 极客时间《浏览器工作原理与实战》-- Chrome架构: 仅仅打开了1个页面，为什么有4个进程？
 9. Servicification: [https://www.chromium.org/servicification](https://www.chromium.org/servicification)
 10. Meltdown/Spectre: [https://developers.google.com/web/updates/2018/02/meltdown-spectre](https://developers.google.com/web/updates/2018/02/meltdown-spectre)
+
+---
+
+![《浏览器工作原理与实践》](https://cdn.jsdelivr.net/gh/arronKler/oss@master/uPic/2020_12/uWolOb_11_11-39-25.jpg)

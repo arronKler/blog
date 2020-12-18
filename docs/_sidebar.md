@@ -1,6 +1,7 @@
 
 * 浏览器相关
   * [浏览器进程架构的演化](/web/browser/browser_process)
+  * [HTTP进化史](/web/browser/http)
 
 * 优化
   * [网络请求优化](/web/optimization/network_timing)

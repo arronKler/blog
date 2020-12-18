@@ -3,14 +3,13 @@
 
 浏览器在获取网络资源的时候，会经过一系列的网络连接建立、请求数据、接收数据等过程。整个过程中的每个阶段都会存在时间消耗。有的时间消耗是不可避免的，但有的消耗是可以被进一步优化的。
 
-本文就是想介绍一下网络请求的流程是怎样的，以及如何通过 devtool 查看时间消耗，和如何进行优化。
+本文想传递的内容就是：网络请求的流程是怎样的，以及如何通过 devtool 查看时间消耗，和如何进行优化。
 
 
 # 一个完整的资源请求流程
 我们先看一下完整的资源请求的流程是如何进行的
 
 <style>
-
 table tr > td:first-child {
   width: 10em;
 }
@@ -36,14 +35,14 @@ table tr > td:first-child {
 2. 在Network面板下选择某个资源请求
 3. 切换到 Timing 子面板
 
-## 关键时间消耗和优化策略
-Timing面板中展示了整个资源请求所消耗的时间。完整的解释看下图（取自Chrome Devtools官方文档 [https://developers.google.com/web/tools/chrome-devtools/network/reference](https://developers.google.com/web/tools/chrome-devtools/network/reference)）
+# 关键时间消耗和优化策略
+Timing面板中展示了整个资源请求所消耗的时间, 其中的时间消耗和我们上面所提及的一些资源请求的流程是对应的。关于Timing面板下的数据，完整的解释可以看下图（取自Chrome Devtools官方文档 [https://developers.google.com/web/tools/chrome-devtools/network/reference](https://developers.google.com/web/tools/chrome-devtools/network/reference)）
 ![Timing消耗](https://cdn.jsdelivr.net/gh/arronKler/oss@master/uPic/2020_12/3UKAFq_11_11-10-23.png)
 
 其中有三个阶段我们需要特别关注一下：
-1. Queueing :排队时间
-2. Waiting(TTFB) :发送请求到接受第一个字符的时间
-3. Content Download :资源下载时间
+1. Queueing : 排队时间，也即 TCP 建立连接的请求发起前的排队时间
+2. Waiting(TTFB) : Time To First Byte ,发送请求到接收到第一个字节的时间
+3. Content Download : 资源下载时间，服务端从返回第一个字节到返回完所有数据所花费的时间
 
 ## Queueing
 排队阶段，这个阶段是指请求已经做好准备了，但是因为一些原因需要先排队等待。排队的原因主要有下面三种

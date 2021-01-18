@@ -80,5 +80,3 @@ TTFB 是指从发送请求到收到服务端返回的第一个字节的一个时
 - 极客时间《浏览器工作原理与实践》—— HTTP请求流程
 
 ---
-
-![《浏览器工作原理与实践》](https://cdn.jsdelivr.net/gh/arronKler/oss@master/uPic/2020_12/uWolOb_11_11-39-25.jpg)

@@ -1,123 +1,19 @@
-<!DOCTYPE html>
-<html lang="en" dir="auto">
-
-<head><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="index, follow">
-<title>Arronkler&#39;s Blog</title>
-
-<meta name="keywords" content="" />
-<meta name="description" content="">
-<meta name="author" content="">
-<link rel="canonical" href="https://arronkler.top/" />
-<link href="/assets/css/stylesheet.min.4f1ad98d0bbc51ea2c950f063c7e29522bc8945c9dd06348318cd4cce6be44bb.css" integrity="sha256-TxrZjQu8UeoslQ8GPH4pUivIlFyd0GNIMYzUzOa&#43;RLs=" rel="preload stylesheet"
-    as="style">
-
-<link rel="icon" href="https://arronkler.top/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://arronkler.top/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://arronkler.top/favicon-32x32.png">
-<link rel="apple-touch-icon" href="https://arronkler.top/apple-touch-icon.png">
-<link rel="mask-icon" href="https://arronkler.top/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<meta name="generator" content="Hugo 0.79.0" />
-<link rel="alternate" type="application/rss&#43;xml" href="https://arronkler.top/index.xml">
-
-
-<meta property="og:title" content="Arronkler&#39;s Blog" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://arronkler.top/" />
-<meta property="og:updated_time" content="2021-01-29T21:19:24+08:00" />
-<meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Arronkler&#39;s Blog"/>
-<meta name="twitter:description" content=""/>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Arronkler's Blog",
-  "url": "https://arronkler.top/",
-  "description": "",
-  "thumbnailUrl": "https://arronkler.top/favicon.ico",
-  "sameAs": [
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Arronkler&#39;s Blog</title>
+    <link>https://arronkler.top/post/</link>
+    <description>Recent content in Posts on Arronkler&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Fri, 29 Jan 2021 21:19:24 +0800</lastBuildDate><atom:link href="https://arronkler.top/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>如何打造一套Vue组件库</title>
+      <link>https://arronkler.top/post/build_vue_component_lib/</link>
+      <pubDate>Fri, 29 Jan 2021 21:19:24 +0800</pubDate>
       
-  ]
-}
-</script>
-
-
-</head>
-
-<body class="list" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
-
-</script>
-<noscript>
-    <style type="text/css">
-        .theme-toggle,
-        .top-link {
-            display: none;
-        }
-
-    </style>
-</noscript>
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="https://arronkler.top/" accesskey="h" title="Arronkler&#39;s Blog (Alt + H)">Arronkler&#39;s Blog</a>
-            <span class="logo-switches">
-                <span class="theme-toggle" title="(Alt + T)">
-                    <a id="theme-toggle" accesskey="t">
-                        <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                        </svg>
-                        <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                            stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="5"></circle>
-                            <line x1="12" y1="1" x2="12" y2="3"></line>
-                            <line x1="12" y1="21" x2="12" y2="23"></line>
-                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                            <line x1="1" y1="12" x2="3" y2="12"></line>
-                            <line x1="21" y1="12" x2="23" y2="12"></line>
-                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                        </svg>
-                    </a>
-                </span>
-                
-            </span>
-        </div>
-        <ul class="menu" id="menu" onscroll="menu_on_scroll()"></ul>
-    </nav>
-</header>
-
-    <main class="main"> 
-
-
-
-<article class="first-entry"> 
-
-  <header class="entry-header">
-    <h2>
-      如何打造一套Vue组件库
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>组件库能帮我们节省开发精力，无需所有东西都从头开始去做，通过一个个小组件拼接起来，就得到了我们想要的最终页面。在日常开发中如果没有特定的一些业务需求，使用组件库进行开发无疑是更便捷高效，而且质量也相对更高的方案。
+      <guid>https://arronkler.top/post/build_vue_component_lib/</guid>
+      <description>组件库能帮我们节省开发精力，无需所有东西都从头开始去做，通过一个个小组件拼接起来，就得到了我们想要的最终页面。在日常开发中如果没有特定的一些业务需求，使用组件库进行开发无疑是更便捷高效，而且质量也相对更高的方案。
 目前的开源组件库有很多，不管是react还是vue的体系里都有很多非常优秀的组件库，比如我经常使用的就有elementui和iview。当然也还有其他的一些组件库，他们的本质其实都是为了节省重复造基础组件这一轮子的过程。也有的公司可能会对自己公司的产品有特别的需求，不太愿意使用开源的组件库的样式，或者自己有一些公司内部的业务项目需要用到，但开源项目无法满足的组件需要沉淀下来的时候，自建一套组件库就成为了一个作为业务驱动所需要的项目。
 本文会从 ”准备“ 和 ”实践“ 两个阶段来阐述，一步步完成一个组件库的打造。大致内容如下：
  准备：主要讲了搭建组件库之前我们需要先提及一下一些基础知识，为实践阶段做铺垫。 实践：有了一些基本概念，咱们就直接通过一个实践案例来动手搭建一套基础的组件库。从做的过程中去感受组件库的设计。  希望通过本文的分享以及包含的一个简单的 实际操作案例，能让你从组件库使用者的角色向组件库创造者的角色迈进那么一小步，在日常使用组件库的时候心里有个底，那我的目的也就达到了。
@@ -142,39 +38,29 @@ vuepress更好的一点在于你可以自定义其webpack配置和主题，意�
 自定义主题的功能一般的使用方式是这样的
  通过主题生成工具。（制作者需要单独做一个工具） 引入关键主题文件，覆盖主题变量。(这种方式一般都需要适配制作者所使用的css预处理器）  对于第一种方式往往都是组件库的制作者通过把生成组件样式的那一套东西做成一个工具，然后提供给使用者去根据自己的需要来调整，最后生成一套特定的样式文件，引入使用。
 第二种方式，作为使用者来说，你主要做的其实是覆盖了组件库中的一些主题变量，因为具体的组件的样式文件不是写死的固定样式值，而是使用了定义好的变量，所以你的自定义主题就生效了。但是这也会引入一个小问题就是你必须适配组件库的创造者所使用的样式预处理器，比如你用iview，那你的项目就要能解析Less文件，你用ElementUI，你的项目就必须可以解析SCSS。
-其实对于第一种方式也主要是以调整主题变量为主。所以当咱们自己要做一套组件库的时候，不难看出，一个核心点就是需要把主题变量文件和样式文件拆开来，后面的就简单了。...</p>
-  </section>
-  <footer class="entry-footer">January 29, 2021
-</footer>
-  <a class="entry-link" aria-label="post link to 如何打造一套Vue组件库" href="https://arronkler.top/post/build_vue_component_lib/"></a>
-</article>
-<article class="post-entry"> 
-
-  <header class="entry-header">
-    <h2>
-      网络资源请求流程及优化
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>浏览器在获取网络资源的时候，会经过一系列的网络连接建立、请求数据、接收数据等过程。整个过程中的每个阶段都会存在时间消耗。有的时间消耗是不可避免的，但有的消耗是可以被进一步优化的。
+其实对于第一种方式也主要是以调整主题变量为主。所以当咱们自己要做一套组件库的时候，不难看出，一个核心点就是需要把主题变量文件和样式文件拆开来，后面的就简单了。</description>
+    </item>
+    
+    <item>
+      <title>网络资源请求流程及优化</title>
+      <link>https://arronkler.top/post/network_timing/</link>
+      <pubDate>Fri, 29 Jan 2021 21:18:29 +0800</pubDate>
+      
+      <guid>https://arronkler.top/post/network_timing/</guid>
+      <description>浏览器在获取网络资源的时候，会经过一系列的网络连接建立、请求数据、接收数据等过程。整个过程中的每个阶段都会存在时间消耗。有的时间消耗是不可避免的，但有的消耗是可以被进一步优化的。
 本文想传递的内容就是：网络请求的流程是怎样的，以及如何通过 devtool 查看时间消耗，和如何进行优化。
 一个完整的资源请求流程 我们先看一下完整的资源请求的流程是如何进行的
    步骤 描述     1️⃣ 准备请求 构建请求行信息   2️⃣ 查找缓存 这个比较好理解，要请求之前先查看要请求的资源是否已经缓存过了，并且还处在有效期内。如果存在有效的缓存，那就不需要再去发送网络请求了，直接就可以返回给浏览器处理。   3️⃣ 准备IP 一般来说，我们给到的资源都是一个URL，其域名需要先转换为IP地址才能拿来使用。将域名转换为IP地址的过程，首先是会看DNS缓存是否存在，存在就返回IP，不存在就去 DNS 服务器查这个域名对应的IP。IP准备好之后就可以进行下一步了。   4️⃣ TCP排队 TCP连接不是随意建立的，对于 Chrome 浏览器来说，针对每一个域名，同时最多建立 6 个TCP连接。所以如果当前已经存在了6个对同一个域名的TCP连接，那当前的请求只能先到TCP请求队列里面去排队，等待有连接被释放了，再从TCP请求队列里拿出来建立新的连接。   5️⃣ 建立TCP连接 三次握手🤝，两台计算机之间建立连接。TCP是可靠的面向连接的传输层的协议，建立了TCP连接，上层数据就能完整的送达对方计算机了。   6️⃣ 发送HTTP请求 给服务端发送基于HTTP协议的请求，然后会有一小段时间等待服务端的响应   7️⃣ 接收HTTP响应 服务端处理完请求，给出响应数据（🔆 分两次, 先给响应头的数据，再给响应体的数据）   8️⃣ 断开TCP连接 数据交互结束，四次挥手👋断开TCP连接    用 Devtool 查看时间消耗 操作步骤:
- 打开Chrome开发者工具 在Network面板下选择某个资源请求 切换到 Timing 子面板  关键时间消耗和优化策略 Timing面板中展示了整个资源请求所消耗的时间, 其中的时间消耗和我们上面所提及的一些资源请求的流程是对应的。关于Timing面板下的数据，完整的解释可以看下图（取自Chrome Devtools官方文档 https://developers....</p>
-  </section>
-  <footer class="entry-footer">January 29, 2021
-</footer>
-  <a class="entry-link" aria-label="post link to 网络资源请求流程及优化" href="https://arronkler.top/post/network_timing/"></a>
-</article>
-<article class="post-entry"> 
-
-  <header class="entry-header">
-    <h2>
-      浏览器进程架构的演化
-    </h2>
-  </header>
-  <section class="entry-content">
-    <p>前言  曾经你用 IE6或IE7 或者 firefox 的时候有遇到一个插件崩溃，而你打开的一系列页面全部崩溃的场景么？😰 曾经你遇到过打开浏览器或某些页面总是弹出很多你不想打开的恶意窗，要一个一个手动叉掉的情况吗？😤 曾经在你打开某个页面由于某种原因整个浏览器就卡住，连关闭按钮都点不动的时候，你是只能强制关掉整个浏览器么？🤔  如果上述情况你都遇见过，那我们今天就有得聊了。如果没遇到也没关系，今天的内容也会让你拓展一下视野，当你真正遇到的时候，不至于一头雾水。
+ 打开Chrome开发者工具 在Network面板下选择某个资源请求 切换到 Timing 子面板  关键时间消耗和优化策略 Timing面板中展示了整个资源请求所消耗的时间, 其中的时间消耗和我们上面所提及的一些资源请求的流程是对应的。关于Timing面板下的数据，完整的解释可以看下图（取自Chrome Devtools官方文档 https://developers.</description>
+    </item>
+    
+    <item>
+      <title>浏览器进程架构的演化</title>
+      <link>https://arronkler.top/post/browser_process/</link>
+      <pubDate>Fri, 29 Jan 2021 19:25:49 +0800</pubDate>
+      
+      <guid>https://arronkler.top/post/browser_process/</guid>
+      <description>前言  曾经你用 IE6或IE7 或者 firefox 的时候有遇到一个插件崩溃，而你打开的一系列页面全部崩溃的场景么？😰 曾经你遇到过打开浏览器或某些页面总是弹出很多你不想打开的恶意窗，要一个一个手动叉掉的情况吗？😤 曾经在你打开某个页面由于某种原因整个浏览器就卡住，连关闭按钮都点不动的时候，你是只能强制关掉整个浏览器么？🤔  如果上述情况你都遇见过，那我们今天就有得聊了。如果没遇到也没关系，今天的内容也会让你拓展一下视野，当你真正遇到的时候，不至于一头雾水。
 今天的主题是《浏览器进程架构的演化》，可能你会问了，什么是浏览器进程架构。其实很简单，架构指的是一个软件的各个方面的设计，那浏览器进程架构你就可以理解为 浏览器是怎么设计其进程的操作和管理方式的
 我们会将各种浏览器放到一起来聊一聊这些 浏览器在历史发展过程中，其进程架构做了哪些调整？为什么这样调整？解决了哪些问题？ 相信看完这篇文章，能让你明白开头提出的三个问题是怎么回事儿，对你以后遇到的其它问题也给出一个思考方向。
 好了，既然要说进程架构的演化，那你真的了解了进程是怎么回事儿么？与线程之间有啥关系？我们来简单的过一遍
@@ -197,83 +83,8 @@ Sandbox（沙盒）可以看做就是一个被限制了权限的进程，一个�
  也就是说沙盒限制了多少权限是根据你的安全策略来的，它能防止系统被恶意破坏，提供了一定的安全性，这也是我们上面提到的 “不安全” 这一个问题的解决方案的一环。具体的沙盒的实现方法呢在不同的操作系统上都是有差异的，毕竟进程是操作系统提供的，这不是我们的重点，就此打住。
 接着我们一起来看一下Chrome、IE 和 Firefox这三款浏览器是如何演化自身到多进程的一个架构方案的？
 Chrome的多进程架构 Google Chrome浏览器最早是在2008年发布的，比起IE这种老牌浏览器，现在看来算是后起之秀。不过这个后起之秀并非只是突兀的来抢占浏览器市场份额的，这一点从 Chrome一开始就是基于多进程架构 可见端倪。
-在Chrome的多进程架构中，包含这样几种进程...</p>
-  </section>
-  <footer class="entry-footer">January 29, 2021
-</footer>
-  <a class="entry-link" aria-label="post link to 浏览器进程架构的演化" href="https://arronkler.top/post/browser_process/"></a>
-</article>
-
-    </main><footer class="footer">
-    <span>&copy; 2021 <a href="https://arronkler.top/">Arronkler&#39;s Blog</a></span>
-    <span>&middot;</span>
-    <span>Powered by <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a></span>
-    <span>&middot;</span>
-    <span>Theme <a href="https://git.io/hugopapermod" rel="noopener" target="_blank">PaperMod</a></span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)">
-    <button class="top-link" id="top-link" type="button" accesskey="g">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-            <path d="M12 6H0l6-6z" />
-        </svg>
-    </button>
-</a>
-
-
-
-<script>
-    window.onload = function () {
-        if (localStorage.getItem("menu-scroll-position")) {
-            document.getElementById('menu').scrollLeft = localStorage.getItem("menu-scroll-position");
-        }
-    }
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
-        });
-    });
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
-
-    function menu_on_scroll() {
-        localStorage.setItem("menu-scroll-position", document.getElementById('menu').scrollLeft);
-    }
-
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
-
-</script>
-
-</body>
-
-</html>
+在Chrome的多进程架构中，包含这样几种进程</description>
+    </item>
+    
+  </channel>
+</rss>

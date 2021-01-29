@@ -2,6 +2,8 @@
 title: "浏览器进程架构的演化"
 date: 2021-01-29T19:25:49+08:00
 draft: false
+ShowToc: true
+TocOpen: true
 ---
 
 <!-- # 浏览器进程架构的演化 -->

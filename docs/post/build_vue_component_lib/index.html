@@ -212,6 +212,59 @@ vuepress更好的一点在于你可以自定义其webpack配置和主题，意�
     </div>
   </header> 
 
+  <div class="toc">
+    <details  open>
+      <summary accesskey="c" title="(Alt + C)">
+        <div class="details">Table of Contents</div>
+      </summary>
+      <div class="inner"><ul><li>
+        <a href="#%e5%87%86%e5%a4%87-%e6%89%93%e9%80%a0%e7%bb%84%e4%bb%b6%e5%ba%93%e4%b9%8b%e5%89%8d%e4%bd%a0%e5%ba%94%e8%af%a5%e7%9f%a5%e9%81%93%e4%ba%9b%e4%bb%80%e4%b9%88" aria-label="准备 ：打造组件库之前你应该知道些什么？">准备 ：打造组件库之前你应该知道些什么？</a><ul>
+            <li>
+        <a href="#%e9%a1%b9%e7%9b%ae%e5%81%9a%e4%b8%80%e4%b8%aa%e7%bb%84%e4%bb%b6%e5%ba%93%e9%a1%b9%e7%9b%ae%e6%9c%89%e5%93%aa%e4%ba%9b%e9%a2%9d%e5%a4%96%e9%9c%80%e8%a6%81%e8%80%83%e8%99%91%e7%9a%84%e4%ba%8b" aria-label="项目：做一个组件库项目有哪些额外需要考虑的事？">项目：做一个组件库项目有哪些额外需要考虑的事？</a><ul>
+            <li>
+        <a href="#%e7%bb%84%e4%bb%b6%e6%b5%8b%e8%af%95" aria-label="组件测试">组件测试</a></li><li>
+        <a href="#%e6%96%87%e6%a1%a3%e7%94%9f%e6%88%90" aria-label="文档生成">文档生成</a></li><li>
+        <a href="#%e8%87%aa%e5%ae%9a%e4%b9%89%e4%b8%bb%e9%a2%98" aria-label="自定义主题">自定义主题</a></li><li>
+        <a href="#webpack%e6%89%93%e5%8c%85" aria-label="webpack打包">webpack打包</a></li><li>
+        <a href="#%e6%8c%89%e9%9c%80%e5%8a%a0%e8%bd%bd" aria-label="按需加载">按需加载</a></li></ul>
+    </li><li>
+        <a href="#%e7%bb%84%e4%bb%b6%e6%af%94%e8%b5%b7%e6%97%a5%e5%b8%b8%e7%9a%84%e7%bb%84%e4%bb%b6%e8%ae%be%e8%ae%a1%e5%81%9a%e7%bb%84%e4%bb%b6%e5%ba%93%e4%bd%a0%e8%bf%98%e9%9c%80%e8%a6%81%e7%9f%a5%e9%81%93%e4%ba%9b%e4%bb%80%e4%b9%88" aria-label="组件：比起日常的组件设计，做组件库你还需要知道些什么？">组件：比起日常的组件设计，做组件库你还需要知道些什么？</a><ul>
+            <li>
+        <a href="#%e7%bb%84%e4%bb%b6%e9%80%9a%e4%bf%a1%e9%99%a4%e4%ba%86%e4%b8%8a%e4%b8%8b%e7%ba%a7%e4%b9%8b%e9%97%b4%e8%bf%9b%e8%a1%8c%e6%95%b0%e6%8d%ae%e9%80%9a%e4%bf%a1%e8%bf%98%e6%9c%89%e4%bb%80%e4%b9%88" aria-label="组件通信：除了上下级之间进行数据通信，还有什么？">组件通信：除了上下级之间进行数据通信，还有什么？</a><ul>
+            <li>
+        <a href="#%e5%86%85%e7%bd%ae%e7%9a%84provideinject" aria-label="内置的provide/inject">内置的provide/inject</a></li><li>
+        <a href="#%e6%b4%be%e5%8f%91%e5%92%8c%e5%b9%bf%e6%92%ad-%e8%87%aa%e5%88%b6dispatch%e5%92%8cbroadcast%e5%8a%9f%e8%83%bd" aria-label="派发和广播: 自制dispatch和broadcast功能">派发和广播: 自制dispatch和broadcast功能</a></li></ul>
+    </li><li>
+        <a href="#%e6%b8%b2%e6%9f%93%e5%87%bd%e6%95%b0%e5%ae%83%e5%8f%af%e4%bb%a5%e9%87%8a%e6%94%bejavascript%e7%9a%84%e8%83%bd%e5%8a%9b" aria-label="渲染函数：它可以释放javascript的能力">渲染函数：它可以释放javascript的能力</a></li></ul>
+    </li></ul>
+    </li><li>
+        <a href="#%e5%ae%9e%e8%b7%b5%e5%81%9a%e4%b8%80%e9%81%8d%e4%bd%a0%e5%b0%b1%e4%bc%9a%e4%ba%86" aria-label="实践：做一遍你就会了">实践：做一遍你就会了</a><ul>
+            <li>
+        <a href="#%e5%bb%ba%e7%ab%8b%e4%b8%80%e4%b8%aa%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%9a%84%e9%a1%b9%e7%9b%ae" aria-label="建立一个工程化的项目">建立一个工程化的项目</a><ul>
+            <li>
+        <a href="#%e7%ac%ac%e4%b8%80%e6%ad%a5%e5%bb%ba%e7%ab%8b%e5%b7%a5%e7%a8%8b%e5%8c%96%e7%bb%93%e6%9e%84" aria-label="第一步，建立工程化结构">第一步，建立工程化结构</a></li><li>
+        <a href="#%e7%ac%ac%e4%ba%8c%e6%ad%a5-%e5%ae%8c%e5%96%84%e6%89%93%e5%8c%85%e6%b5%81%e7%a8%8b" aria-label="第二步， 完善打包流程">第二步， 完善打包流程</a></li><li>
+        <a href="#%e7%ac%ac%e4%b8%89%e6%ad%a5%e5%bb%ba%e7%ab%8b%e6%96%87%e6%a1%a3%e5%8c%96%e5%b7%a5%e5%85%b7" aria-label="第三步，建立文档化工具">第三步，建立文档化工具</a></li><li>
+        <a href="#%e7%ac%ac%e5%9b%9b%e6%ad%a5%e6%a0%b7%e5%bc%8f%e6%9e%84%e5%bb%ba" aria-label="第四步，样式构建">第四步，样式构建</a></li></ul>
+    </li><li>
+        <a href="#%e7%bb%84%e4%bb%b6%e6%89%93%e9%80%a0%e6%a1%88%e4%be%8b" aria-label="组件打造案例">组件打造案例</a><ul>
+            <li>
+        <a href="#%e7%ae%80%e5%8d%95%e7%9a%84button%e7%bb%84%e4%bb%b6" aria-label="简单的button组件">简单的button组件</a></li><li>
+        <a href="#notice%e6%8f%90%e7%a4%ba%e7%bb%84%e4%bb%b6" aria-label="Notice提示组件">Notice提示组件</a></li></ul>
+    </li><li>
+        <a href="#%e5%8d%95%e7%8b%ac%e6%89%93%e5%8c%85%e6%a0%b7%e5%bc%8f%e5%92%8c%e7%bb%84%e4%bb%b6" aria-label="单独打包样式和组件">单独打包样式和组件</a></li><li>
+        <a href="#%e4%bd%bf%e7%94%a8%e8%87%aa%e5%b7%b1%e7%9a%84%e7%bb%84%e4%bb%b6%e5%ba%93" aria-label="使用自己的组件库">使用自己的组件库</a><ul>
+            <li>
+        <a href="#%e7%9b%b4%e6%8e%a5%e4%bd%bf%e7%94%a8" aria-label="直接使用">直接使用</a></li><li>
+        <a href="#%e6%8c%89%e9%9c%80%e5%8a%a0%e8%bd%bd-1" aria-label="按需加载">按需加载</a></li><li>
+        <a href="#%e4%b8%bb%e9%a2%98%e5%ae%9a%e5%88%b6" aria-label="主题定制">主题定制</a></li></ul>
+    </li></ul>
+    </li><li>
+        <a href="#%e7%bb%93%e8%af%ad" aria-label="结语">结语</a></li><li>
+        <a href="#%e5%bc%95%e7%94%a8%e5%8f%82%e8%80%83" aria-label="引用参考">引用参考</a></li></ul>
+      </div>
+    </details>
+  </div>
   <div class="post-content">
 <p>组件库能帮我们节省开发精力，无需所有东西都从头开始去做，通过一个个小组件拼接起来，就得到了我们想要的最终页面。在日常开发中如果没有特定的一些业务需求，使用组件库进行开发无疑是更便捷高效，而且质量也相对更高的方案。</p>
 <p>目前的开源组件库有很多，不管是react还是vue的体系里都有很多非常优秀的组件库，比如我经常使用的就有elementui和iview。当然也还有其他的一些组件库，他们的本质其实都是为了节省重复造基础组件这一轮子的过程。也有的公司可能会对自己公司的产品有特别的需求，不太愿意使用开源的组件库的样式，或者自己有一些公司内部的业务项目需要用到，但开源项目无法满足的组件需要沉淀下来的时候，自建一套组件库就成为了一个作为业务驱动所需要的项目。</p>

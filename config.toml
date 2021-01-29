@@ -3,3 +3,7 @@ languageCode = "zh-CN"
 title = "Arronkler's Blog"
 theme = "hugo-PaperMod"
 publishDir = "docs"
+
+[params.homeInfoParams]
+Title = "Hi there ❗️"
+Content = "Let's build a world with code ~ ✂️"

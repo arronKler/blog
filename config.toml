@@ -1,4 +1,4 @@
-baseURL = "https://arronkler.top/"
+baseURL = "https://arronkler.github.io/blog/"
 languageCode = "zh-CN"
 title = "Arronkler's Blog"
 theme = "hugo-PaperMod"
